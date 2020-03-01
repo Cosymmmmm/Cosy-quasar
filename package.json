@@ -1,0 +1,54 @@
+{
+  "name": "cosy-quasar",
+  "version": "0.0.1",
+  "description": "cosy-quasar",
+  "productName": "cosy-quasar",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "feiqi",
+  "private": true,
+  "scripts": {
+    "dev": "quasar dev -T ios",
+    "build": "quasar build -T ios",
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "echarts": "^4.5.0",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
+    "quasar": "^1.0.0",
+    "querystring": "^0.2.0",
+    "video.js": "^7.0.0",
+    "vue-date-pick": "^1.2.1",
+    "vue-echarts": "^4.0.4",
+    "vue-i18n": "^8.0.0",
+    "vue-navigation": "^1.1.4",
+    "vue-scroller": "^2.2.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "@vue/eslint-config-prettier": "^4.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^8.0.0",
+    "vue-easytable": "^1.7.2"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
