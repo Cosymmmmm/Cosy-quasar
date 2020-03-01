@@ -1,6 +1,6 @@
 # Quasar App (mobile-vue-system)
 
-A Quasar Framework app
+一个基于Quasar/vue的H5脚手架
 
 ## Install the dependencies
 ```bash
