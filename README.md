@@ -1,26 +1,18 @@
 # Quasar App (mobile-vue-system)
 
-一个基于Quasar/vue的H5脚手架
+一个基于Quasar/vue的H5脚手架，内置i18n, axios, plugins, echarts, webview的基本封装。
+样式和适配方面使用postcss-px-to-viewport做px-vw转换，包含vue全家桶。
 
 ## Install the dependencies
 ```bash
 yarn
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### 运行
 ```bash
 quasar dev
 ```
 
-### Lint the files
-```bash
-yarn run lint
-```
-
-### Build the app for production
-```bash
-quasar build
-```
 
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
